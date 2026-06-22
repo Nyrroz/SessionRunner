@@ -1,0 +1,5 @@
+playwright
+python-dotenv
+playwright
+pydantic
+python-dotenv

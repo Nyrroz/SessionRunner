@@ -1,0 +1,9 @@
+[Unit]
+Description=Declenche l arret quotidien de SessionRunner
+
+[Timer]
+OnCalendar=*-*-* 18:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Arrete le container SessionRunner
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker stop -t 15 sessionrunner

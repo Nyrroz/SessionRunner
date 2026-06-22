@@ -1,0 +1,8 @@
+[Unit]
+Description=Demarre le container SessionRunner
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker run -d --rm --name sessionrunner --env-file /opt/sessionrunner/.env sessionrunner:latest
