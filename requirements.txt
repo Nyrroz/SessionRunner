@@ -1,5 +1,5 @@
 playwright
 python-dotenv
-playwright
+playwright==1.60.0
 pydantic
 python-dotenv
